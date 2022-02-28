@@ -1,0 +1,97 @@
+.warp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 360px)
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 0 auto;
+    width: 800px;
+    height: 123px;
+    border-bottom: 1px solid #EBEBEB;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.icon-font {
+    width: 56px;
+    height: 56px;
+    background-color: rgba(255, 255, 255，0);
+}
+
+.titles h1 {
+    font-size: 1.8em;
+    padding-left: 30px;
+}
+
+/* 主要内容 */
+.button {
+    margin: 40px 0;
+}
+
+.button-left,
+.button-right {
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 8px;
+    height: 34px;
+    padding: 0 20px;
+    line-height: 34px;
+    border: 1px solid #EBEBEB;
+    background: #fff;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 822px;
+    height: auto;
+    /* padding-top: 10px; */
+    background-color: rgba(255, 182, 182, 0);
+
+}
+
+.card-container {
+    width: 254px;
+    height: 230px;
+    border: 1px solid #ebebeb;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+    margin: 10px;
+}
+
+
+.card-container img {
+    width: 224px;
+    height: 132px;
+    margin: 14px;
+    border-radius: 8px;
+}
+
+.card-container .about {
+    padding: 0 14px;
+}
+
+.card-container h4 {
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+}
+
+.card-container p {
+    padding-top: 2px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
