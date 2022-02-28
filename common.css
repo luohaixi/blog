@@ -25,7 +25,6 @@ body {
 
 .header {
     background-color: rgb(255, 255, 255);
-    border-bottom: 0.5px solid #f3f3f3;
 }
 
 .head-nav {
@@ -81,7 +80,7 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 0 50px;
     /* margin-top: 60px; */
-    border-top: 0.5px solid #f3f3f3;
+    /* border-top: 0.5px solid #f3f3f3; */
 }
 
 .footer .mod {

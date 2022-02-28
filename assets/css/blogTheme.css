@@ -1,9 +1,9 @@
 .theme-dark {
-    background: #000 !important
+    background: #171A1F !important
 }
 
 .theme-dark .header {
-    background-color: #000;
+    background-color: #171A1F;
     color: #fff;
 }
 
@@ -11,10 +11,60 @@
     color: #fff;
 }
 
-.theme-dark .elemen {
-    background-color: chartreuse;
+.theme-dark .h-subtitle h1 {
+    color: rgb(255, 255, 255)
 }
 
+.theme-dark .fabe {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.theme-dark .elemen {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.theme-dark .header  .logo svg path {
+    fill: currentColor;
+    color: rgb(255, 255, 255);
+}
+
+.theme-dark .elemen svg path {
+    fill: currentColor;
+    color: rgb(255, 255, 255);
+}
+
+.theme-dark .elemen-sc-a svg path {
+    fill: currentColor;
+    color: #92B5F2;
+}
+
+.theme-dark .elemen-sc-b svg path {
+    fill: currentColor;
+    color: #91C699;
+}
+
+.theme-dark .elemen .elemen-bt h2 {
+    color: rgb(255, 255, 255)
+}
+
+.theme-dark .elemen-sc-a {
+    background-color: rgba(146, 181, 242, 0.1);
+}
+
+.theme-dark .elemen-sc-b {
+    background-color: rgba(145, 198, 153, 0.1);
+}
+
+.theme-dark .elemen-sc-a .elemen-bt h2 {
+    color: rgb(146, 181, 242);
+}
+
+.theme-dark .elemen-sc-b .elemen-bt h2 {
+    color: rgba(145, 198, 153, 1);
+
+}
+
+/* 默认样式 */
 .theme-light {
     background-color: #fff
 }
