@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="assets/css/blogTheme.css" />
 </head>
 
 <body>
@@ -32,6 +33,11 @@
                     <li><a href="about.html">关于</a></li>
                 </ul>
             </div>
+            <div>
+                <div onclick="handleTheme('theme-light')">白</div>
+                <div onclick="handleTheme('theme-dark')">黑</div>
+            </div>
+
         </div>
 
     </div>
@@ -131,6 +137,8 @@
 
     <!-- Theme JS -->
     <script src="assets/js/main.js"></script>
+    <!-- 主题 -->
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,20 @@
+.theme-dark {
+    background: #000 !important
+}
+
+.theme-dark .header {
+    background-color: #000;
+    color: #fff;
+}
+
+.theme-dark .nav ul li a {
+    color: #fff;
+}
+
+.theme-dark .elemen {
+    background-color: chartreuse;
+}
+
+.theme-light {
+    background-color: #fff
+}

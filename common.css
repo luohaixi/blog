@@ -13,7 +13,7 @@ a {
 
 body {
     height: auto;
-    background: #ffffff;
+    /* background: #ffffff; */
     font-size: 14px;
     font-family: "Greycliff Medium", "Helvetica Neue", Helvetica, sans-serif, "Roboto";
     line-height: 1.5;
