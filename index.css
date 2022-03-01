@@ -98,8 +98,17 @@ body {
 
 .pages-muen p {
     font-size: 18px;
-    margin-bottom: 20px;
     color: #979797;
+}
+
+.pages-muen .list-top .list-top-a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 39px;
+    border-radius: 10px;
 }
 
 .elemen-bm {
@@ -139,6 +148,11 @@ body {
 .elemen-sc-b .elemen-bt h2 {
     color: #35703A;
 }
+
+.elemen .list-top .list-top-a:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
 
 /* footer */
 .footer {

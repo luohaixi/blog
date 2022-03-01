@@ -23,7 +23,7 @@
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-.theme-dark .header  .logo svg path {
+.theme-dark .header .logo svg path {
     fill: currentColor;
     color: rgb(255, 255, 255);
 }
@@ -62,6 +62,10 @@
 .theme-dark .elemen-sc-b .elemen-bt h2 {
     color: rgba(145, 198, 153, 1);
 
+}
+
+.elemen .list-top .list-top-a:hover {
+    background: rgba(255, 255, 255, 0.05);
 }
 
 /* 默认样式 */

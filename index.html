@@ -29,14 +29,14 @@
                 </svg>
             </div>
             <!-- 导航栏部分 nav -->
-            <div class="nav">
+            <!-- <div class="nav">
                 <ul>
-                    <li><a href="index.html">首页</a></li>
-                    <li><a href="portfolio.html">作品集</a></li>
-                    <li><a href="blog.html">博客</a></li>
-                    <li><a href="about.html">关于</a></li>
+                    <li><a onclick="handleJump('index')">首页</a></li>
+                    <li><a onclick="handleJump('portfolio')">作品集</a></li>
+                    <li><a onclick="handleJump('blog')">博客</a></li>
+                    <li><a onclick="handleJump('about')">关于</a></li>
                 </ul>
-            </div>
+            </div> -->
             <div>
                 <div onclick="handleTheme('theme-light')">白</div>
                 <div onclick="handleTheme('theme-dark')">黑</div>
@@ -63,7 +63,7 @@
             </div>
             <div class="pages-muen">
                 <div class="elemen">
-                    <div>
+                    <div class="elemen-b">
                         <div class="elemen-bt">
                             <h2>学习</h2>
                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
@@ -73,21 +73,42 @@
                                     fill="black" />
                             </svg>
                         </div>
-                        <div style="display:block;min-height:24px;height:24px;max-height:24px"></div>
-                        <div style="width: 100%;">
-                            <p>1.动效设计指南</p>
-                            <p>2.如何让动效更加自然？</p>
-                            <p>3.如何设计合情合理的交互动效 。</p>
-                            <p>4.了解如何通过照顾每个人来设计可访问的数字产品。</p>
-                            <p>5.了解如何通过照顾每个人来设计可访问的数字产品。</p>
+                        <div style="display:block;min-height:20px;height:20px;max-height:20px"></div>
+                        <div class="list-top" style="width: 100%;">
+                            <div class="list-top-a">
+                                <a href="">
+                                    <p>1.动效设计指南</p>
+                                </a>
+                            </div>
+                            <div class="list-top-a">
+                                <a href="#">
+                                    <p>2.如何让动效更加自然？</p>
+                                </a>
+                            </div>
+                            <div class="list-top-a">
+                                <a href="">
+                                    <p>3.如何设计合情合理的交互动效 。</p>
+                                </a>
+                            </div>
+                            <div class="list-top-a">
+                                <a href="">
+                                    <p>4.了解如何通过照顾每个人来设计可访问的数字产品。</p>
+                                </a>
+                            </div>
+                            <div class="list-top-a">
+                                <a href="">
+                                    <p>5.了解如何通过照顾每个人来设计可访问的数字产品。</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div style="display: flex;flex-direction: row-reverse;">
-                        <svg width="52" height="21" viewBox="0 0 52 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M44.4704 8.27449C47.1928 9.49089 50.2462 9.5 51.5 9.5V11.5C50.2462 11.5 47.1928 11.5091 44.4704 12.7255C43.1265 13.326 41.8976 14.2066 41.0016 15.4993C40.1097 16.7861 39.5 18.5494 39.5 21H37.5C37.5 18.2006 38.2028 16.0264 39.3578 14.36C40.2239 13.1104 41.3175 12.185 42.4848 11.5H0V9.5H42.4848C41.3175 8.81504 40.2239 7.88957 39.3578 6.63997C38.2028 4.97358 37.5 2.79937 37.5 0H39.5C39.5 2.45063 40.1097 4.21392 41.0016 5.50065C41.8976 6.7934 43.1265 7.67401 44.4704 8.27449Z"
-                                fill="black" />
-                        </svg>
+                        <a href="blog.html"><svg width="52" height="21" viewBox="0 0 52 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M44.4704 8.27449C47.1928 9.49089 50.2462 9.5 51.5 9.5V11.5C50.2462 11.5 47.1928 11.5091 44.4704 12.7255C43.1265 13.326 41.8976 14.2066 41.0016 15.4993C40.1097 16.7861 39.5 18.5494 39.5 21H37.5C37.5 18.2006 38.2028 16.0264 39.3578 14.36C40.2239 13.1104 41.3175 12.185 42.4848 11.5H0V9.5H42.4848C41.3175 8.81504 40.2239 7.88957 39.3578 6.63997C38.2028 4.97358 37.5 2.79937 37.5 0H39.5C39.5 2.45063 40.1097 4.21392 41.0016 5.50065C41.8976 6.7934 43.1265 7.67401 44.4704 8.27449Z"
+                                    fill="black" />
+                            </svg></a>
                     </div>
                 </div>
                 <div class="elemen-sc">
@@ -107,12 +128,12 @@
                         <div style="display:block;min-height:24px;height:24px;max-height:24px"></div>
                         <p>了解如何通过照顾每个人来设计可访问的数字产品。</p>
                         <div style="display: flex;flex-direction: row-reverse;">
-                            <svg width="52" height="21" viewBox="0 0 52 21" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M44.4704 8.27449C47.1928 9.49089 50.2462 9.5 51.5 9.5V11.5C50.2462 11.5 47.1928 11.5091 44.4704 12.7255C43.1265 13.326 41.8976 14.2066 41.0016 15.4993C40.1097 16.7861 39.5 18.5494 39.5 21H37.5C37.5 18.2006 38.2028 16.0264 39.3578 14.36C40.2239 13.1104 41.3175 12.185 42.4848 11.5H0V9.5H42.4848C41.3175 8.81504 40.2239 7.88957 39.3578 6.63997C38.2028 4.97358 37.5 2.79937 37.5 0H39.5C39.5 2.45063 40.1097 4.21392 41.0016 5.50065C41.8976 6.7934 43.1265 7.67401 44.4704 8.27449Z"
-                                    fill="#2E68CB" />
-                            </svg>
+                            <a href="portfolio.html"><svg width="52" height="21" viewBox="0 0 52 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M44.4704 8.27449C47.1928 9.49089 50.2462 9.5 51.5 9.5V11.5C50.2462 11.5 47.1928 11.5091 44.4704 12.7255C43.1265 13.326 41.8976 14.2066 41.0016 15.4993C40.1097 16.7861 39.5 18.5494 39.5 21H37.5C37.5 18.2006 38.2028 16.0264 39.3578 14.36C40.2239 13.1104 41.3175 12.185 42.4848 11.5H0V9.5H42.4848C41.3175 8.81504 40.2239 7.88957 39.3578 6.63997C38.2028 4.97358 37.5 2.79937 37.5 0H39.5C39.5 2.45063 40.1097 4.21392 41.0016 5.50065C41.8976 6.7934 43.1265 7.67401 44.4704 8.27449Z"
+                                        fill="#2E68CB" />
+                                </svg></a>
                         </div>
                     </div>
                     <div class="elemen-sc-b">
@@ -128,12 +149,12 @@
                         <div style="display:block;min-height:24px;height:24px;max-height:24px"></div>
                         <p>了解如何通过照顾每个人来设计可访问的数字产品。</p>
                         <div style="display: flex;flex-direction: row-reverse;">
-                            <svg width="52" height="21" viewBox="0 0 52 21" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M44.4704 8.27449C47.1928 9.49089 50.2462 9.5 51.5 9.5V11.5C50.2462 11.5 47.1928 11.5091 44.4704 12.7255C43.1265 13.326 41.8976 14.2066 41.0016 15.4993C40.1097 16.7861 39.5 18.5494 39.5 21H37.5C37.5 18.2006 38.2028 16.0264 39.3578 14.36C40.2239 13.1104 41.3175 12.185 42.4848 11.5H0V9.5H42.4848C41.3175 8.81504 40.2239 7.88957 39.3578 6.63997C38.2028 4.97358 37.5 2.79937 37.5 0H39.5C39.5 2.45063 40.1097 4.21392 41.0016 5.50065C41.8976 6.7934 43.1265 7.67401 44.4704 8.27449Z"
-                                    fill="#35703A" />
-                            </svg>
+                            <a href="about.html"><svg width="52" height="21" viewBox="0 0 52 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M44.4704 8.27449C47.1928 9.49089 50.2462 9.5 51.5 9.5V11.5C50.2462 11.5 47.1928 11.5091 44.4704 12.7255C43.1265 13.326 41.8976 14.2066 41.0016 15.4993C40.1097 16.7861 39.5 18.5494 39.5 21H37.5C37.5 18.2006 38.2028 16.0264 39.3578 14.36C40.2239 13.1104 41.3175 12.185 42.4848 11.5H0V9.5H42.4848C41.3175 8.81504 40.2239 7.88957 39.3578 6.63997C38.2028 4.97358 37.5 2.79937 37.5 0H39.5C39.5 2.45063 40.1097 4.21392 41.0016 5.50065C41.8976 6.7934 43.1265 7.67401 44.4704 8.27449Z"
+                                        fill="#35703A" />
+                                </svg></a>
                         </div>
                     </div>
                 </div>
