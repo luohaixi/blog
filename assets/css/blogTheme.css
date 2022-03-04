@@ -11,6 +11,23 @@
     color: #fff;
 }
 
+switch {
+    width: 64px;
+    /* height: 36px; */
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.theme-dark .nav .dribble svg path {
+    fill: currentColor;
+    color: rgb(255, 255, 255);
+}
+
 .theme-dark .h-subtitle h1 {
     color: rgb(255, 255, 255)
 }
