@@ -1,6 +1,6 @@
 .user-center {
     width: 800px;
-    height: 300px;
+    height: 240px;
     margin: 20px 0;
     border: 0px solid #ebebeb;
     background: rgb(255, 255, 255);
@@ -10,7 +10,7 @@
 }
 
 .about {
-    padding: 20px 60px;
+    padding: 20px 0;
 }
 
 .user-center h2 {
@@ -72,7 +72,7 @@
     height: 56px;
     background: rgba(0, 0, 0, 0.04);
     border-radius: 28px;
-    
+
 }
 
 .flex-box h6 {

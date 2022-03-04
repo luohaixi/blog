@@ -14,7 +14,7 @@
     margin: 0 auto;
     width: 800px;
     height: 123px;
-    border-bottom: 1px solid #EBEBEB;
+    /* border-bottom: 1px solid #EBEBEB; */
     background-color: rgba(255, 255, 255, 0);
 }
 
@@ -31,19 +31,45 @@
 
 /* 主要内容 */
 .button {
-    margin: 40px 0;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
 }
 
-.button-left,
-.button-right {
-    margin: 0 10px;
-    display: inline-block;
-    border-radius: 8px;
-    height: 34px;
-    padding: 0 20px;
-    line-height: 34px;
-    border: 1px solid #EBEBEB;
-    background: #fff;
+.elemen-sc-a {
+    margin: 0 10px 0 0;
+    padding: 24px;
+    width: 50%;
+    background: #E9F0FD;
+    border-radius: 22px;
+}
+
+.elemen-sc-b {
+    margin: 0 0 0 10px;
+    padding: 24px;
+    width: 50%;
+    background: #E9F4EB;
+    border-radius: 22px;
+}
+
+.elemen-bt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8em;
+    /* line-height: 50px; */
+
+}
+
+.button p {
+    font-size: 16px;
+    color: #979797;
 }
 
 .section {
