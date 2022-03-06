@@ -29,7 +29,6 @@
     width: 800px;
     height: 450px;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
 }
 
 video {
@@ -45,7 +44,6 @@ video {
     margin-top: 60px;
     margin: 10px;
     width: 820px;
-    background-color: rgba(255, 255, 255, 0);
 }
 
 .box-lettlo>div {
@@ -53,7 +51,6 @@ video {
     height: 185px;
     margin: 10px;
     border-radius: 10px;
-    background-color: #f2f2f2;
 }
 
 .box-lettlo img {
