@@ -11,7 +11,12 @@
     color: #fff;
 }
 
-switch {
+.theme-dark .nav .dribble a .icon {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.theme-dark .switch {
     width: 64px;
     /* height: 36px; */
     padding: 8px;
@@ -81,7 +86,7 @@ switch {
 
 }
 
-.elemen .list-top .list-top-a:hover {
+.theme-dark .elemen .list-top .list-top-a:hover {
     background: rgba(255, 255, 255, 0.05);
 }
 

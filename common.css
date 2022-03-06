@@ -50,8 +50,21 @@ body {
 
 }
 
-.nav .svg {
+/* .nav .svg {
     margin-right: 40px;
+} */
+
+.nav .dribble a .icon {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.fab {
+    font-family: 'icomoon';
+}
+
+.fa-dribbble::after {
+    content: "\eaa7";
 }
 
 .switch {
@@ -86,33 +99,7 @@ body {
     border-radius: 6px; */
 }
 
-/* .nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
 
-.nav ul li {
-    padding: 0 0 0 40px;
-    list-style: none;
-}
-
-.nav ul li a {
-    padding: 10px 0;
-    line-height: 3.5;
-    font-size: 1em;
-    font-weight: 600;
-    color: #000000;
-    text-decoration: none;
-}
-
-.nav ul li a:hover {
-    font-weight: bold;
-    border-bottom: 2px solid #000000;
-    color: #000000;
-} */
 
 /* 底部模块制作 */
 .footer {
@@ -121,8 +108,6 @@ body {
     height: 260px;
     background-color: #fafafa;
     padding: 0 50px;
-    /* margin-top: 60px; */
-    /* border-top: 0.5px solid #f3f3f3; */
 }
 
 .footer .mod {
