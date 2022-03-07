@@ -69,6 +69,15 @@
     color: rgb(255, 255, 255)
 }
 
+.theme-dark .far-w {
+    color: rgb(255, 255, 255)
+}
+.theme-dark .far-w-p {
+    color: rgba(255, 255, 255,0.3)
+}
+.theme-dark .frame{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
 .theme-dark .elemen-sc-a {
     background-color: rgba(146, 181, 242, 0.1);
 }
