@@ -28,11 +28,6 @@
 
 }
 
-.theme-dark .nav .dribble svg path {
-    fill: currentColor;
-    color: rgb(255, 255, 255);
-}
-
 .theme-dark .h-subtitle h1 {
     color: rgb(255, 255, 255)
 }
@@ -45,12 +40,7 @@
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-.theme-dark .header .logo svg path {
-    fill: currentColor;
-    color: rgb(255, 255, 255);
-}
-
-.theme-dark .elemen svg path {
+.theme-dark .elemen-b svg path {
     fill: currentColor;
     color: rgb(255, 255, 255);
 }
@@ -78,9 +68,15 @@
 }
 
 .theme-dark .frame {
+    background-color: #23262f;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.theme-dark .bei-box div{
+
+.theme-dark .far-c {
+    border-color: #353945;
+}
+
+.theme-dark .bei-box div {
     background: rgba(255, 255, 255, 0.05);
 }
 

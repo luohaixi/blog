@@ -68,6 +68,14 @@
     color: #979797;
 }
 
+.elemen-sc-a .elemen-bt h2 {
+    color: #2E68CB;
+}
+
+.elemen-sc-b .elemen-bt h2 {
+    color: #35703A;
+}
+
 .list {
     /* border-top: 1px solid #EBEBEB; */
     width: 800px;

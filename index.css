@@ -75,9 +75,9 @@ body {
     justify-content: space-between;
     margin: 10px;
     padding: 24px;
-    /* width: 555px; */
+    width: 416px;
     /* height: 50vh; */
-    background: #F8F9FA;
+    background: rgba(0, 0, 0, 0.03);
     border-radius: 22px;
 }
 

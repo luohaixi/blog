@@ -63,8 +63,14 @@
     font-style: normal;
     font-weight: 600;
     font-size: 1.8em;
-    /* line-height: 50px; */
+}
 
+.elemen-sc-a .elemen-bt h2 {
+    color: #2E68CB;
+}
+
+.elemen-sc-b .elemen-bt h2 {
+    color: #35703A;
 }
 
 .button p {
