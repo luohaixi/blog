@@ -1,9 +1,16 @@
 (function () {
+    console.log('auto')
     const theme = getQuery('theme');
+    // setTimeout(() => {
+    //     document.body.style.display = ""
+    // }, 1000);
+    // document.body.style.display = "none"
     if (!theme) {
+        console.log('!theme')
         window.location.href = window.location.href + "?theme=light"
     }
     initTheme(`theme-${theme}`)
+
 })()
 
 function getQuery(key) {
@@ -20,6 +27,7 @@ function getQuery(key) {
 }
 
 function initTheme(theme = $themeList[0], firstFlag) {
+    console.log('handle init')
     var $themeList = [{
         id: 'theme-dark',
         param: 'dark',
@@ -37,6 +45,7 @@ function initTheme(theme = $themeList[0], firstFlag) {
 }
 
 function handleTheme(theme = $themeList[0], firstFlag) {
+    console.log("handle theme")
     var $themeList = [{
         id: 'theme-dark',
         param: 'dark',
