@@ -76,5 +76,10 @@ function replaceParamVal(paramName, replaceWith) {
 
 function handleJump(path) {
     const theme = getQuery('theme');
-    window.location.href = `/${path}.html?theme=${theme}`
+    if (location.hostname == '127.0.0.1') {
+        window.location.href = `${path}.html?theme=${theme}`
+    } else if (location.hostname == 'luohaixi.github.io') {
+        window.location.href = `${location.pathname}${path}.html?theme=${theme}`
+
+    }
 }
