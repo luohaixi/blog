@@ -79,7 +79,7 @@ function handleJump(path) {
     if (location.hostname == '127.0.0.1') {
         window.location.href = `${path}.html?theme=${theme}`
     } else if (location.hostname == 'luohaixi.github.io') {
-        window.location.href = `${location.pathname}${path}.html?theme=${theme}`
+        window.location.href = `/blog/${path}.html?theme=${theme}`
 
     }
 }
