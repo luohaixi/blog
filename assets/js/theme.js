@@ -1,6 +1,6 @@
 (function () {
     const theme = getItem('theme');
-    handleTheme(theme)
+    handleInit(theme)
 })()
 
 /**
@@ -21,17 +21,16 @@ function setItem(key, value) {
     localStorage.setItem(key, value);
 }
 
-// 改变主题
-function handleTheme(theme) {
+function doTheme(theme) {
     setItem('theme', theme)
     var $themeList = [{
         id: 'theme-dark',
         param: 'dark',
-        name: '暗黑主题Î'
+        name: '暗黑主题'
     }, {
         id: 'theme-light',
         param: 'light',
-        name: '默认主题Î'
+        name: '默认主题'
     }]
     const body = document.querySelector('body');
     for (let i = 0; i < $themeList.length; i++) {
@@ -39,6 +38,24 @@ function handleTheme(theme) {
         body.classList.remove(t.id);
     }
     body.classList.add(theme);
+}
+
+function handleInit(theme) {
+    doTheme(theme)
+    if (theme === 'theme-dark') {
+        document.getElementById('theme-check-box').checked = true
+    }
+}
+
+// 改变主题
+function handleTheme(theme) {
+    if (Object.prototype.toString.call(theme) === "[object HTMLInputElement]") {
+        if (!theme.checked) {
+            doTheme('theme-light')
+        } else {
+            doTheme('theme-dark')
+        }
+    }
 }
 
 function handleJump(path) {

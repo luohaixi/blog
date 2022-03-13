@@ -37,8 +37,14 @@
                     </a>
                 </div>
                 <div class="switch">
-                    <div onclick="handleTheme('theme-light')">白</div>
-                    <div onclick="handleTheme('theme-dark')">黑</div>
+                    <!-- <div onclick="handleTheme('theme-light')">白</div>
+                    <div onclick="handleTheme('theme-dark')">黑</div> -->
+                    <section>
+                        <div class="toggle-btn" id="_1st-toggle-btn">
+                            <input id="theme-check-box" type="checkbox" onclick="handleTheme(this)">
+                            <span></span>
+                        </div>
+                    </section>
                 </div>
             </div>
 
@@ -63,7 +69,7 @@
                 </p>
             </div>
             <div class="pages-muen">
-                <div class="elemen">
+                <div class="elemen" onclick="handleJump('blog')">
                     <div class="elemen-b">
                         <div class="elemen-bt">
                             <h2>学习</h2>
@@ -109,7 +115,7 @@
                         </div>
                     </div>
                     <div style="display: flex;flex-direction: row-reverse;" class="elemen-b">
-                        <a onclick="handleJump('blog')"><svg width="52" height="21" viewBox="0 0 52 21" fill="none"
+                        <a><svg width="52" height="21" viewBox="0 0 52 21" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M44.4704 8.27449C47.1928 9.49089 50.2462 9.5 51.5 9.5V11.5C50.2462 11.5 47.1928 11.5091 44.4704 12.7255C43.1265 13.326 41.8976 14.2066 41.0016 15.4993C40.1097 16.7861 39.5 18.5494 39.5 21H37.5C37.5 18.2006 38.2028 16.0264 39.3578 14.36C40.2239 13.1104 41.3175 12.185 42.4848 11.5H0V9.5H42.4848C41.3175 8.81504 40.2239 7.88957 39.3578 6.63997C38.2028 4.97358 37.5 2.79937 37.5 0H39.5C39.5 2.45063 40.1097 4.21392 41.0016 5.50065C41.8976 6.7934 43.1265 7.67401 44.4704 8.27449Z"
@@ -117,6 +123,7 @@
                             </svg></a>
                     </div>
                 </div>
+
                 <div class="elemen-sc">
                     <div class="elemen-sc-a">
                         <div>
