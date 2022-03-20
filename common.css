@@ -54,7 +54,7 @@ body {
     margin-right: 40px;
 } */
 
-.nav .dribble a .icon {
+.icon {
     font-size: 18px;
     color: rgb(0, 0, 0);
 }
@@ -63,14 +63,20 @@ body {
     font-family: 'icomoon';
 }
 
+
 .fa-dribbble::after {
     content: "\eaa7";
 }
 
+.icon-behance::after {
+    content: "\eaa9";
+}
+
+.icon-github::after {
+    content: "\eab0";
+}
+
 .switch {
-    /* width: 64px; */
-    /* height: 36px; */
-    /* padding: 8px; */
     background: rgba(0, 0, 0, 0.05);
     border-radius: 35px;
     display: flex;
@@ -145,6 +151,9 @@ body {
     height: 30px;
     background-color: rgba(0, 0, 0, .03);
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .list-inline {
