@@ -68,7 +68,7 @@
 }
 
 .theme-dark .frame {
-    background-color: #23262f;
+    /* background-color: #23262f; */
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
