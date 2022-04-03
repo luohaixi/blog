@@ -25,6 +25,7 @@
     padding-bottom: 1rem;
     font-size: 36px;
     font-family: "PingFang HK"serif;
+    font-weight: normal;
 }
 
 .user-center p {
@@ -53,16 +54,32 @@
     padding-left: 30px;
 }
 
-.banner .video-hd {
+.banner {
+    margin-bottom: 160px;
+
+}
+
+.video-hd {
     width: 800px;
     height: 450px;
     border-radius: 10px;
+    margin-bottom: 24px;
+
 }
 
 video {
     width: 100%;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.title h4 {
+    font-size: 22px;
+    font-weight: normal;
 }
 
 .box-lettlo {
