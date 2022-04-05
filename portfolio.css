@@ -5,35 +5,6 @@
     align-items: center;
 }
 
-.user-center {
-    width: 800px;
-    margin: 20px 0;
-    background-image: linear-gradient(134deg, #1664ff, #16a6ff);
-    /* padding: 76px 40px 0; */
-    overflow: hidden;
-    box-sizing: border-box;
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.03);
-    border-radius: 12px;
-}
-
-.about {
-    padding: 40px 30px;
-}
-
-.user-center h2 {
-    color: #ffffff;
-    padding-bottom: 1rem;
-    font-size: 36px;
-    font-family: "PingFang HK"serif;
-    font-weight: normal;
-}
-
-.user-center p {
-    font-size: 14px;
-    line-height: 24px;
-    color: #ffffff;
-}
-
 .titles {
     display: flex;
     flex-direction: row;
