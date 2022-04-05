@@ -110,28 +110,24 @@ body {
 
 /* 底部模块制作 */
 .footer {
-    display: flex;
-    justify-content: center;
-    height: 260px;
+    /* display: flex;
+    justify-content: center; */
+    /* height: 260px; */
     border-top: 1px solid #e6e8ec;
     /* background-color: #fafafa; */
-    padding: 0 50px;
+    padding: 40px 50px;
 }
 
 .footer .mod {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
 .footer p {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.9);
-}
-
-.bottom-th {
-    margin-bottom: 1rem;
 }
 
 .footer .mod .mod-help {
