@@ -178,7 +178,9 @@ body {
 }
 
 .footer p {
-    font-size: 16px;
+    font-size: 20px;
+    font-family: Amithen;
+    letter-spacing: 2px;
     color: rgba(0, 0, 0, 0.9);
 }
 
