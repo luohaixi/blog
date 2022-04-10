@@ -24,7 +24,7 @@
 .user-center p {
     font-size: 14px;
     line-height: 24px;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .section {
@@ -74,4 +74,10 @@
     font-size: 1em;
     font-weight: 400;
 
+}
+
+.bei-box:hover {
+    transform: scale(1.03);
+    transition: all 0.2s !important;
+    /* box-shadow: 0px 0px 20px rgb(46 104 203 / 8%); */
 }

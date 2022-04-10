@@ -83,3 +83,9 @@
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
 }
+
+.card-container:hover {
+    transform: scale(1.05);
+    transition: all 0.2s !important;
+    box-shadow: 0px 0px 20px rgb(46 104 203 / 8%);
+}
