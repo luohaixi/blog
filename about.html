@@ -15,80 +15,82 @@
 </head>
 
 <body>
-    <!-- 导航栏部分 -->
-    <div class="header">
-        <div class="head-nav">
-            <!-- logo部分 -->
-            <div class="logo elemen-b">
-                <a onclick="handleJump('index')">
-                    <svg width="36" height="36" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0ZM22.8713 16.3729L26.4084 11.7042L30.0931 16.8348C30.9414 18.016 30.921 19.6121 30.0428 20.7713L25.9853 26.127C26.0356 26.0579 26.4281 25.4566 25.7278 24.3478C25.4214 23.8627 23.9881 21.9029 22.8476 20.3548C21.9733 19.1682 21.9812 17.5477 22.8713 16.3729ZM12.0643 16.7273L15.6349 12.0144L24.4057 24.3708C25.2435 25.5512 25.2188 27.1386 24.3447 28.2924L20.7741 33.0053L12.0033 20.6489C11.1655 19.4685 11.1902 17.8811 12.0643 16.7273Z"
-                            fill="black" />
-                    </svg></a>
+    <div class="page">
+        <!-- 导航栏部分 -->
+        <div class="header">
+            <div class="head-nav">
+                <!-- logo部分 -->
+                <div class="logo elemen-b">
+                    <a onclick="handleJump('index')">
+                        <svg width="36" height="36" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0ZM22.8713 16.3729L26.4084 11.7042L30.0931 16.8348C30.9414 18.016 30.921 19.6121 30.0428 20.7713L25.9853 26.127C26.0356 26.0579 26.4281 25.4566 25.7278 24.3478C25.4214 23.8627 23.9881 21.9029 22.8476 20.3548C21.9733 19.1682 21.9812 17.5477 22.8713 16.3729ZM12.0643 16.7273L15.6349 12.0144L24.4057 24.3708C25.2435 25.5512 25.2188 27.1386 24.3447 28.2924L20.7741 33.0053L12.0033 20.6489C11.1655 19.4685 11.1902 17.8811 12.0643 16.7273Z"
+                                fill="black" />
+                        </svg></a>
+                </div>
+                <!-- 导航栏部分 nav -->
+                <div class="nav">
+                    <div class="dribble" style="margin-right:2rem; display: flex;justify-content: center;
+                    align-items: center;">
+                        <a target="_blank" href="https://dribbble.com/luohaixi/shots">
+                            <span class="icon fab fa-dribbble"></span>
+                        </a>
+                    </div>
+
+                    <div class="switch">
+                        <section>
+                            <div class="toggle-btn" id="_1st-toggle-btn">
+                                <input id="theme-check-box" type="checkbox" onclick="handleTheme(this)">
+                                <span></span>
+                            </div>
+                        </section>
+                        <!-- <div onclick="handleTheme('theme-light')">白</div>
+                        <div onclick="handleTheme('theme-dark')">黑</div> -->
+                    </div>
+
+                </div>
             </div>
-            <!-- 导航栏部分 nav -->
-            <div class="nav">
-                <div class="dribble" style="margin-right:2rem; display: flex;justify-content: center;
-                align-items: center;">
-                    <a target="_blank" href="https://dribbble.com/luohaixi/shots">
-                        <span class="icon fab fa-dribbble"></span>
-                    </a>
+
+        </div>
+        <div class="section">
+            <div class="user-center">
+                <div class="about">
+                    <h2 class="far-w">设计，保持初心和好奇。</h2>
+                    <p class="far-w-p">
+                        设计不只是看上去的样子和感觉，关键在于它如何发挥作用。<br>
+                        设计与优美的外观无关，它关注的是如何结合功能与用途解决问题，这就是我坚持的设计之道。 <br>
+                        <!-- Users can understand the height distance and hierarchical relationship between<br>
+                        the elements by simulating the projection of the elements. -->
+                    </p>
+
                 </div>
 
-                <div class="switch">
-                    <section>
-                        <div class="toggle-btn" id="_1st-toggle-btn">
-                            <input id="theme-check-box" type="checkbox" onclick="handleTheme(this)">
-                            <span></span>
-                        </div>
-                    </section>
-                    <!-- <div onclick="handleTheme('theme-light')">白</div>
-                    <div onclick="handleTheme('theme-dark')">黑</div> -->
+            </div>
+            <div class="flex-box">
+                <div class="bei-box frame">
+                    <div></div>
+                    <h6 class="far-w">贝塞尔插值</h6>
+                </div>
+                <div class="bei-box frame">
+                    <div></div>
+                    <h6 class="far-w">常用小工具1</h6>
+                </div>
+                <div class="bei-box frame">
+                    <div></div>
+                    <h6 class="far-w">常用小工具2</h6>
+                </div>
+                <div class="bei-box frame">
+                    <div></div>
+                    <h6 class="far-w">常用小工具3</h6>
+                </div>
+                <div class="bei-box frame">
+                    <div></div>
+                    <h6 class="far-w">常用小工具4</h6>
                 </div>
 
             </div>
+            <div style="display:block;min-height:60px;height:60px;max-height:60px"></div>
         </div>
-
-    </div>
-    <div class="section">
-        <div class="user-center">
-            <div class="about">
-                <h2 class="far-w">设计，保持初心和好奇。</h2>
-                <p class="far-w-p">
-                    设计不只是看上去的样子和感觉，关键在于它如何发挥作用。<br>
-                    设计与优美的外观无关，它关注的是如何结合功能与用途解决问题，这就是我坚持的设计之道。 <br>
-                    <!-- Users can understand the height distance and hierarchical relationship between<br>
-                    the elements by simulating the projection of the elements. -->
-                </p>
-
-            </div>
-
-        </div>
-        <div class="flex-box">
-            <div class="bei-box frame">
-                <div></div>
-                <h6 class="far-w">贝塞尔插值</h6>
-            </div>
-            <div class="bei-box frame">
-                <div></div>
-                <h6 class="far-w">常用小工具1</h6>
-            </div>
-            <div class="bei-box frame">
-                <div></div>
-                <h6 class="far-w">常用小工具2</h6>
-            </div>
-            <div class="bei-box frame">
-                <div></div>
-                <h6 class="far-w">常用小工具3</h6>
-            </div>
-            <div class="bei-box frame">
-                <div></div>
-                <h6 class="far-w">常用小工具4</h6>
-            </div>
-
-        </div>
-        <div style="display:block;min-height:60px;height:60px;max-height:60px"></div>
     </div>
     <!-- 底部模块的制作 -->
     <footer class="footer far-c">
