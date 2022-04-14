@@ -21,6 +21,12 @@ body {
     letter-spacing: 0;
 }
 
+@font-face {
+    font-family: Amithen;
+    src: url(images/webfonts/icomoon/fonts/Amithen.ttf);
+}
+
+
 .header {
     background-color: rgb(255, 255, 255);
 }

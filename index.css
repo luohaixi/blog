@@ -3,11 +3,6 @@
     -webkit-box-sizing: border-box;
 }
 
-@font-face {
-    font-family: Amithen;
-    src: url(images/webfonts/icomoon/fonts/Amithen.ttf);
-}
-
 body {
     height: 80vh;
     margin: 0;
