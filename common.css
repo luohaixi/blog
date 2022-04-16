@@ -193,9 +193,7 @@ body {
     color: rgba(0, 0, 0, 0.9);
 }
 
-.footer .mod .mod-help {
-    font-weight: 300;
-}
+
 
 .footer .mod ul {
     display: flex;
@@ -213,6 +211,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logo-td {
+    width: 150px;
 }
 
 .list-inline {
