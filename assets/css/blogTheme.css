@@ -17,9 +17,6 @@
 }
 
 .theme-dark .switch {
-    /* width: 64px; */
-    /* height: 36px; */
-    /* padding: 8px; */
     background: rgba(255, 255, 255, 0.05);
     border-radius: 35px;
     display: flex;
@@ -67,8 +64,16 @@
     color: rgba(255, 255, 255, 0.6)
 }
 
+.theme-dark .far-wh {
+    color: rgba(255, 255, 255, 0.1)
+}
+
 .theme-dark .frame {
     /* background-color: #23262f; */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .test-card:hover {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
