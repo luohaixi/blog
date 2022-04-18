@@ -75,7 +75,8 @@
 
 .test-card p {
     font-size: 14px;
-    color: #979797;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 6px;
 }
 
 .test-card:hover {

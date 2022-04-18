@@ -2,24 +2,28 @@
     min-height: calc(100vh - 131px);
 }
 
+.section {
+    width: 872px;
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; */
+}
+
 .user-center {
-    width: 800px;
-    margin: 20px 0;
+    margin: 20px 10px;
+    padding: 40px 30px;
     background-image: linear-gradient(134deg, #1664ff, #16a6ff);
-    /* padding: 76px 40px 0; */
-    overflow: hidden;
+    /* overflow: hidden; */
     box-sizing: border-box;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.03);
     border-radius: 16px;
 }
 
-.about {
-    padding: 40px 30px;
-}
-
 .user-center h2 {
     color: #ffffff;
-    padding-bottom: 1rem;
     font-size: 36px;
     font-weight: normal;
     font-family: "PingFang HK"serif;
@@ -31,32 +35,20 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .flex-box {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 820px;
-    height: auto;
 }
 
 .flex-box .bei-box {
-    width: 390px;
-    /* height: 90px; */
+    width: 416px;
     box-sizing: border-box;
-    border-radius: 0px;
     margin: 10px;
     padding: 20px;
-}
-
-
-.flex-box .bei-box {
     display: flex;
     flex-direction: row;
     align-items: center;
