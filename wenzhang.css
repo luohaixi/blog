@@ -58,7 +58,7 @@ body {
 }
 
 .article-read-panel[data-v-0735ec40] {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     color: #999;
 }
 
@@ -87,9 +87,9 @@ body {
 
 .article-container .title-line {
     height: 1px;
-    width: 100%;
+    /* width: 100%; */
     background: hsla(0, 0%, 59.2%, .21);
-    margin-bottom: 40px;
+    margin: 20px 80px;
 }
 
 .normal-article-holder .img-box {
