@@ -184,6 +184,7 @@ body {
 .footer {
     border-top: 1px solid #e6e8ec;
     padding: 40px 50px;
+    background-color: rgb(255, 255, 255);
 }
 
 .footer .mod {

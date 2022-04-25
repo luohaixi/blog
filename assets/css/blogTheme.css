@@ -81,6 +81,10 @@
     border-color: #353945;
 }
 
+.theme-dark .footer {
+    background-color: #171A1F;
+}
+
 .theme-dark .bei-box div {
     background: rgba(255, 255, 255, 0.05);
 }
@@ -108,6 +112,10 @@
 
 .theme-dark .elemen .list-top .list-top-a:hover {
     background: rgba(255, 255, 255, 0.05);
+}
+
+.theme-dark .article-container {
+    background: rgba(255, 255, 255, 0.04);
 }
 
 /* 默认样式 */

@@ -2,7 +2,7 @@ body {
     width: 100%;
     min-height: 100%;
     margin: 0;
-    background-color: #f6f7f9;
+    background-color: #f6f7f9 !important
 }
 
 .article-container .title-container {
@@ -31,7 +31,7 @@ body {
     border-radius: 4px;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    padding: 30px 40px 40px;
+    padding: 60px 40px 40px;
     margin-bottom: 12px;
 }
 
@@ -47,6 +47,10 @@ body {
 .article-content>p {
     color: #666;
 }
+
+/* p {
+    color: rgba(0, 0, 0, 0.6);
+} */
 
 .article-container .title-container .title {
     min-height: 39px;
