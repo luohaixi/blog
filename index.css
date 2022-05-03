@@ -14,8 +14,17 @@ body {
     /* background: #ffffff; */
     letter-spacing: 0;
     font-weight: 350;
-
 }
+/* 首页背景图 */
+/* .backgronnd{
+    background-image: url();
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #ffffff;
+z-index: -1;
+} */
 
 /* section 主要内容 */
 .centrize {
@@ -130,6 +139,7 @@ body {
     width: 100%;
     height: 180px;
     background: rgba(46, 104, 203, 0.1);
+    backdrop-filter: saturate(180%) blur(20px);
     border-radius: 22px;
 }
 
@@ -153,6 +163,7 @@ body {
     width: 100%;
     height: 180px;
     background: rgba(53, 112, 58, 0.1);
+    backdrop-filter: saturate(180%) blur(20px);
     border-radius: 22px;
 }
 
