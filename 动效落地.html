@@ -66,7 +66,7 @@
             <div class="article-container__content">
                 <div class="title-container">
                     <h1 class="title far-w">
-                        动效设计的作用及意义
+                        常见动效落地方法
                     </h1>
                     <!--辅助信息-->
                     <div class="article-read-panel" data-v-0735ec40="">
@@ -75,82 +75,77 @@
                                 class="category-name" data-v-0735ec40="">
                                 动效设计
                             </a>
-                            <span class="publish-text" data-v-0735ec40="">2022-03-23 10:45</span><span
+                            <span class="publish-text" data-v-0735ec40="">2022-04-26 20:05</span><span
                                 data-v-0735ec40=""> </span>
                             <span data-v-0735ec40=""> </span>
                             <span data-v-0735ec40=""> </span>
-                            <!---->
                         </div>
-                        <!---->
                     </div>
                 </div>
-
-                <!---->
+                <!-- 主要内容 -->
                 <div class="title-line"></div>
                 <div id="article-content" class="article-content">
                     <div id="read-article-holder" class="normal-article-holder read-article-holder far-w-p">
-                        <h2>动效设计的作用</h2>
-                        <p><br></p>
-                        <h3><strong>1. 完成静态界面没有解决或解决不了的问题</strong></h3>
-                        <p>1.1 通过动效拓展空间布局和结构，控制内容在有限空间里更好的展示</p>
-                        <p>比如很多界面中用到的抽屉功能，界面中不需要展示大量的图标排列，我们可以把主要展示，不是主要的则收起来</p>
-                        <p>1.2 隐喻：温和的引导用户产生联想，用户能感受到到但不被打扰</p>
-                        <p>在手机屏幕上点按虚拟元素不像现实中按下实体按钮一样能够感觉到明显的触觉反馈，此时动效就成为了一种很好的反馈途径，比如Materrial
-                            Design设计语言中，用户点击界面元素会伴随着用户的点击出现圆形波纹。</p>
-                        <p>比如tab的切换，当用户理解了tab和内容之间一一的对应关系，不仅点击可以切换，滑动也依旧可以完成；还有就是滑到内容尽头的反弹效果，不仅传达了后面没有了的意思，而且还微妙。</p>
+
+                        <h2>动效实现方法</h2>
+                        <p>提到动效很多前端同学可能会产生抵触心理。在目前行业内，动效设计的整个体系还未成熟，实现动效很麻烦。有些时候代码量很高，而且会影响页面性能、加载速度等等。但是界面动效并不是一种单纯为了炫技的东西、它是有很多现实意义的，下面给大家分享几个常见的动效实现方法，各有优劣，选择合适的即可。
+                        </p>
                         <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
                             <div class="n-img-mask" style="width: 100%;height: auto;">
                                 <i class="iconfont icon--default-cover default-cover"></i>
                                 <div class="n-img-reload" data-type="reload"></div>
                             </div>
-                            <img src="picture/paipai.png" alt="" style="width: 100%; ">
+                            <img src="picture/落地方法.png" alt="" style="width: 100%; ">
                             <figcaption class="caption" contenteditable="false"></figcaption>
                         </figure>
-
-                        <h3><strong>2. 展示更多样的交互形式</strong></h3>
-                        <p>帮助用户了解控件与页面之间的关系，引导用户更方便高效的使用产品</p>
-                        <p>比如我们在iOS手机查看相册时，轻触照片，照片会从列表中的位置放大，这样就建立了放大的照片与列表中缩略图的联系，用户能很确信现在打开的照片就是刚刚自己点击那张，相应的，点击返回，照片就会缩回到列表上的位置，这个过程就能指引用户找到浏览的位置。试想如果不采用这样的缩放动效，而是从一个方向进出，就建立不了照片与列表之间的联系
+                        <p><br></p>
+                        <h3><strong>1.开发代码实现</strong></h3>
+                        <p>大部分交互动效需要开发通过代码进行实现，想要完全还原设计稿的效果，跟开发对接时对每一个行为进行分解并标注：主要从运动对象的变化属性、贝塞尔曲线数值、持续时间等进行描述标注。</p>
+                        <p>交付文档中有几个环节需要进行填写，其中包括动效dome、触发条件、变换的元素和属性、曲线图和数值、起始时间、持续时间、变化的数值、备注等等。</p>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/动效备注.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+                        <p><br></p>
+                        <h3><strong> 2.GIF和序列帧</strong></h3>
+                        <p>GIF和序列帧也是比较常见的动效交付方法，GIF适用于色彩较少，尺寸小的动图；如果是色彩较多的大型图片他的表现有限，占用空间也会很大，而且输出有透明背景的图还会出现锯齿边沿。序列帧就是一张张png格式的图片，所以支持的颜色数量就很多，缺点就是文件更大，更耗内存，小型动图则可以选择这种方式。
                         </p>
-                        <p></p>
                         <p><br></p>
-                        <p></p>
-                        <h3><strong>3. 使应用使用体验更加流畅</strong></h3>
-                        <p>相比于时间上的快慢，用户有时候更需要感知上的流畅</p>
-                        <p>比转场类动效用于页面层级之间的跳转或场景切换，帮助用户理解界面之间的变化和层级关系，避免页面场景的瞬间切换而导致用户产生变化忙视（视觉刺激的突兀变化会阻止用户注意到新的内容）；简单来说就是在产品页面之间的切换让用户有个心理预期，能够观察到哪些新增内容的变化，而整体的切换看上去又非常的丝滑舒适；常用位移、缩放、透明度等简单平滑的效果为主，来搭配层级与层级之间的关系切换。
+                        <h3><strong> 3.APNG</strong></h3>
+                        <p>当动图背景丰富且需要背景透明的格式又想文件更小，那么可以选择APNG格式，APNG是基于png的位图动画格式，目前已经比较稳定，大部分主流浏览器都可以支持，支持的颜色与png相当，也可以完美支持动图的透明通道，并且文件大小比GIF更小。
                         </p>
-                        <p></p>
                         <p><br></p>
-                        <p></p>
-                        <h3><strong>4. 更加有趣有意思</strong></h3>
-                        <p>4.1 有趣有意思不一定有用，但是没用不代表没价值</p>
-                        <p>人类天生就对运动的物体格外注意，因此UI动效自然是吸引用户注意力的有效方法之一。比如iOS锁屏上，当输入的密码不正确的时，输入的密码会消失小圆点左右摇晃，就像跟你摇头说NO一样，告诉你密码输入错误，需要重新输入。这种动效尽管细微，但还是能引起用户注意，同时达到转播信息的作用。
+                        <h3><strong> 4.Json文件</strong></h3>
+                        <p>可以让开发不用写代码的情况下实现丰富的动画效果，但是这个Json文件主要通过AE插件（Bodymovin）来实现。Bodymovin可以将AE中设计好的动画效果导出为Json格式的文件，无论工程中是矢量图还是位图，开发拿到Json文件后可以通过Lottie插件进行解析读取，通过这种方法设计师可以省去很多对接时间，极大的增加了工作效率。
                         </p>
-                        <p>有些动效反馈非常细微，但是组合起来却能传达很复杂的信息。</p>
-                        <p>4.2 锦上添花：没有用户会因为这些动而留在一个软件里，但是这部分可以在传递产品气质的同时让用户的使用体验更加开心愉悦</p>
-                        <p></p>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/json文件.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
                         <p><br></p>
+                        <h3>5.Mp4格式</h3>
+                        <p>有些时间较长的大型展示动画用以上方法都不能完成时，就得用Mp4视频格式了，但是视频也是一种有损的输出格式且对透明通道的支持不好，内存占用也比较高，所以一般不选用此格式。</p>
                         <p><br></p>
-                        <p></p>
-                        <h2>动效设计有什么意义？</h2>
-                        <p>在有些时候，动效很容易被想象成某种为了增加愉悦性质的内容，其本身并不具备价值，因此常常被当做可有可无的部分。</p>
-                        <p><br></p>
-                        <h3><strong>1. 建立联系，减少认知 </strong></h3>
-                        <p>实际上动效则是一种更为高级的设计展示形式，通过模拟真实世界的运动，建立起手机这个虚拟世界与用户之间的认知联系，从而创造出符合用户认知习惯的操作体验。</p>
-
-
-                        <h3><strong>2. 强化品牌 </strong></h3>
-                        <p>与此同时不同品牌之间独有的品牌特性也各不相同，对应表现的行为与动作也有所不同，所以，动效设计在品牌特性的影响下，差异化也会非常明显，这为塑造产品特色和品质感奠定了重要的基础。
+                        <h3><strong> 6.rive格式</strong></h3>
+                        <p>Rive 是一款基于（Flutter）Web
+                            的动画工具，可以制作流畅的60FPS矢量动画，动画体积小并可跨平台运行，可添加多个动画和触发动作，通过状态机建立联系，达到可交互的效果，并且还拥有协作功能；文件都在线上完成并且保存在云端，最重要的是文件内存非常小，这也是我最推荐的动效实现方法之一，唯一的缺点就是对于新手会有一点门槛。
                         </p>
-                        <p></p>
-                        <p><br></p>
-                        <p><br></p>
-                        <p></p>
-                        <h2>怎么衡量动效是否有意义？</h2>
-                        <p><br></p>
-                        <p><strong>1. 一个动效的存在是否合理：</strong>是否带有明确的目的性，助力交互体验，没有多余的动效。
-                        </p>
-                        <p><strong>2. 动效与性能：</strong>不能出现大幅度波动丢帧或者卡顿现象，动效的体验必须是流畅的，并且不影响产品的性能。
-                        </p>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/rive.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
                         <p></p>
                         <p><br></p>
                         <p></p>

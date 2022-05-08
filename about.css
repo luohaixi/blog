@@ -13,8 +13,8 @@
 }
 
 .user-center {
-    margin: 20px 10px;
-    padding: 40px 30px;
+    margin: 30px 10px;
+    padding: 60px 40px;
     background-image: linear-gradient(134deg, #1664ff, #16a6ff);
     /* overflow: hidden; */
     box-sizing: border-box;
@@ -26,7 +26,7 @@
     color: #ffffff;
     font-size: 36px;
     font-weight: normal;
-    font-family: "PingFang HK"serif;
+    margin-bottom: 10px;
 }
 
 .user-center p {
