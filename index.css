@@ -16,7 +16,7 @@ body {
     font-weight: 350;
 }
 /* 首页背景图 */
-/* .backgronnd{
+/* .background{
     background-image: url();
 background-position: center center;
 background-repeat: no-repeat;
@@ -34,6 +34,7 @@ z-index: -1;
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .stared-centent {
