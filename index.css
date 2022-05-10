@@ -86,6 +86,7 @@ z-index: -1;
     backdrop-filter: saturate(180%) blur(62px);
     background: rgba(0, 0, 0, 0.03);
     border-radius: 22px;
+    border: 1px solid #ebebeb;
     transition: .3s cubic-bezier(.165, .84, .44, 1);
 }
 
