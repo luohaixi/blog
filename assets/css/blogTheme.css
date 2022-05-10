@@ -1,9 +1,9 @@
 .theme-dark {
-    background: #171A1F !important
+    background: #0d1117 !important
 }
 
 .theme-dark .header {
-    background-color: #171A1F;
+    background-color: #0d1117;
 }
 
 .theme-dark .nav ul li a {
@@ -81,11 +81,11 @@
 }
 
 .theme-dark .far-c {
-    border-color: #353945;
+    border-color: rgba(48, 54, 61,0.48);
 }
 
 .theme-dark .footer {
-    background-color: #171A1F;
+    background-color: #0d1117;
 }
 
 .theme-dark .bei-box div {
@@ -209,7 +209,7 @@ input[type="checkbox"] {
 }
 
 #_1st-toggle-btn input[type="checkbox"]:checked+span:before {
-    background-color: rgb(47, 49, 53);
+    background-color: rgb(38, 41, 45);
     transform: translate(14px, -8px);
 }
 
