@@ -64,5 +64,7 @@ function handleJump(path) {
     } else if (location.hostname == 'luohaixi.github.io') {
         window.location.href = `/blog/${path}.html`
 
+    } else {
+        window.location.href = `${path}.html?theme=${theme}`
     }
 }
