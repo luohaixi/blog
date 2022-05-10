@@ -86,7 +86,7 @@ z-index: -1;
     backdrop-filter: saturate(180%) blur(62px);
     background: rgba(0, 0, 0, 0.03);
     border-radius: 22px;
-    border: 1px solid #ebebeb;
+    border: 1px solid rgba(0, 0, 0, 0.03);
     transition: .3s cubic-bezier(.165, .84, .44, 1);
 }
 
@@ -143,6 +143,7 @@ z-index: -1;
     background: rgba(46, 104, 203, 0.1);
     backdrop-filter: saturate(180%) blur(20px);
     border-radius: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
 }
 
 .elemen:hover,
@@ -167,6 +168,7 @@ z-index: -1;
     background: rgba(53, 112, 58, 0.1);
     backdrop-filter: saturate(180%) blur(20px);
     border-radius: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
 }
 
 .elemen-sc-b .elemen-bt h2 {
