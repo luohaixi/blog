@@ -65,6 +65,6 @@ function handleJump(path) {
         window.location.href = `/blog/${path}.html`
 
     } else {
-        window.location.href = `${path}.html?theme=${theme}`
+        window.location.href = `${path}.html`
     }
 }
