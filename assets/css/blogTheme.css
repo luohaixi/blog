@@ -34,7 +34,7 @@
 
 .theme-dark .elemen {
     background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .theme-dark .elemen-b svg path {
@@ -98,12 +98,12 @@
 
 .theme-dark .elemen-sc-a {
     background-color: rgba(146, 181, 242, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .theme-dark .elemen-sc-b {
     background-color: rgba(145, 198, 153, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .theme-dark .elemen-sc-a .elemen-bt h2 {
