@@ -244,3 +244,8 @@ body {
     margin: 0;
     display: inline-block;
 }
+.tag{
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 22px;
+}

@@ -93,7 +93,7 @@ body {
     height: 1px;
     /* width: 100%; */
     background: hsla(0, 0%, 59.2%, .21);
-    margin: 20px 80px;
+    margin: 20px 0px;
 }
 
 .normal-article-holder .img-box {
