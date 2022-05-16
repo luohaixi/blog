@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 10px;
+    margin: 0 0px;
 
 }
 
@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0px 10px 90px;
+    margin: 0px 0px 90px;
     background-color:#ffffff;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -78,7 +78,7 @@
 }
 
 .banner {
-    margin: 0px 10px 60px;
+    margin: 0px 0px 90px;
 }
 
 .video-hd {
@@ -122,29 +122,29 @@
     border-radius: 10px;
 }
 
-.main {
+/* .main {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: center;
     width: 100%;
 
-}
+} */
 
-.main>div {
+/* .main>div {
     border-radius: 10px;
     width: 416px;
-    /* height: 189px; */
+    height: 189px;
     background-color: rgb(255, 255, 255);
     margin: 10px;
-}
+} */
 
-.main>div img {
+/* .main>div img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.05);
-}
+} */
 
 .fonts {
     padding: 20px;
@@ -189,4 +189,62 @@
     font-size: 12px;
     margin-top: 2px;
     color: rgba(0, 0, 0, 0.6);
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+    /* margin-top: 3rem; */
+    box-sizing: border-box;
+}
+
+.gap-6 {
+    gap: 1.5rem;
+}
+
+
+.grid-cols-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+
+
+.bg-gray-purple {
+
+    box-sizing: border-box;
+    /* height: 240px; */
+    grid-column-start: span 6;
+    grid-column-end: span 6;
+    /* padding: 0.75rem 0.75rem; */
+    border-radius: 1rem;
+    background-color: rgb(241 240 242);
+
+}
+
+.bg-gray-purple2 {
+    
+    box-sizing: border-box;
+    overflow: hidden;
+    grid-column-start: span 4;
+    grid-column-end: span 4;
+    /* padding: 0.75rem 0.75rem; */
+    border-radius: 1rem;
+    background-color: rgb(241 240 242);
+
+}
+.bg-gray-purple3 {
+    box-sizing: border-box;
+    grid-column-start: span 5;
+    grid-column-end: span 5;
+    /* padding: 0.75rem 0.75rem; */
+    border-radius: 1rem;
+    background-color: rgb(241 240 242);
+
+}
+.display{
+    display: flex;
+    justify-content: center;
+    height: 338px;
+    border-radius: 0.5em;
+    overflow: hidden;
 }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid {
+            display: grid;
+            gap: 1.5rem;
+            margin-top: 3rem;
+            box-sizing: border-box;
+        }
+
+        .gap-6 {
+            gap: 1.5rem;
+        }
+
+        .mt-12 {
+            margin-top: 3rem;
+        }
+
+        .grid-cols-10 {
+            grid-template-columns: repeat(10, minmax(0, 1fr));
+        }
+
+
+
+        .bg-gray-purple {
+            box-sizing: border-box;
+            /* height: 240px; */
+            grid-column-start: span 6;
+            grid-column-end: span 6;
+            padding: 1rem 1rem;
+            border-radius: 1rem;
+            background-color: rgb(241 240 242);
+
+        }
+
+        .bg-gray-purple2 {
+            display: flex;
+            box-sizing: border-box;
+            overflow: hidden;
+            /* height: 4rem; */
+            grid-column-start: span 4;
+            grid-column-end: span 4;
+            padding: 0.75rem 0.75rem;
+            border-radius: 1rem;
+            background-color: rgb(241 240 242);
+
+        }
+        .bg-gray-purple3 {
+            box-sizing: border-box;
+            /* height: 240px; */
+            grid-column-start: span 5;
+            grid-column-end: span 5;
+            padding: 1rem 1rem;
+            border-radius: 1rem;
+            background-color: rgb(241 240 242);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid gap-6 grid-cols-10 mt-12">
+        <div class="bg-gray-purple">
+            <span>1
+
+            </span>
+        </div>
+        <div class="bg-gray-purple2">
+
+            <img src="picture/car - Animation.gif" alt="" style="width: 100%; border-radius: 0.5em;">
+
+        </div>
+        <div class="bg-gray-purple2">
+
+            <img src="picture/car - Animation.gif" alt="" style="width: 100%; border-radius: 0.5em;">
+
+        </div>
+        <div class="bg-gray-purple">
+            <span>4
+
+            </span>
+        </div>
+        <div class="bg-gray-purple3">
+
+            <img src="" alt="" style="width: 100%; border-radius: 0.5em;">
+
+        </div>
+        <div class="bg-gray-purple3">
+            <span>4
+
+            </span>
+        </div>
+        
+    </div>
+</body>
+
+</html>
