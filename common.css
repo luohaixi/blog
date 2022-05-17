@@ -257,7 +257,7 @@ body {
     width: 752px;
     height: auto;
     /* margin: 2rem 0; */
-    padding: 4rem 6rem;
+    padding:60px 72px;
     /* margin: 0 auto; */
     /* max-width: 50rem; */
     background-color: rgb(255, 255, 255);
@@ -267,7 +267,8 @@ body {
 }
 
 .id-card {
-    width: 25%;
+    display: flex;
+    width: 150px;
     /* height: 30%; */
 }
 
