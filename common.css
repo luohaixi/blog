@@ -258,7 +258,7 @@ body {
     height: auto;
     /* margin: 2rem 0; */
     padding: 4rem 6rem;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* max-width: 50rem; */
     background-color: rgb(255, 255, 255);
     backdrop-filter: saturate(180%) blur(62px);
@@ -335,8 +335,9 @@ body {
 .white_content {
     display: none;
     position: absolute;
-    top: 20%;
-    left: 20%;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
 
     /* width: 60%; */
     /* height: 60%; */
