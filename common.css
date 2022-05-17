@@ -261,7 +261,7 @@ body {
     /* margin: 0 auto; */
     /* max-width: 50rem; */
     background-color: rgb(255, 255, 255);
-    backdrop-filter: saturate(180%) blur(62px);
+    backdrop-filter: saturate(180%) blur(150px);
     border-radius: 1.5rem;
     box-shadow: 0 14px 80px rgb(34 35 58 / 20%);
 }
