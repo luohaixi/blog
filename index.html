@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>骆海西的主页</title>
+    <title>user</title>
 
     <!-- fonts -->
     <link rel="stylesheet" href="images/webfonts/icomoon/style.css">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="bitbug_favicon.ico" />
     <link rel="stylesheet" href="assets/css/blogTheme.css" />
+    <script src="jquery-1.6.2.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -76,7 +77,7 @@
                                 data-options='{"strings": ["Motion Designer", "UI/UX Designer", "3D Designer"]}'></span></strong>
                     </h1>
                 </div>
-                <div class="fabe">
+                <div class="fabe" onclick="ShowDiv('MyDiv','fade')">
                     <p
                         style="color: #979797; font-size: 20px; margin: 0 4rem;font-family: Amithen; letter-spacing:2px;">
                         Hello,I'm Luo Haixi...
@@ -182,7 +183,7 @@
                                     </svg>
                                 </div>
                                 <div style="display:block;min-height:12px;height:12px;max-height:12px"></div>
-                                <p class="far-w-p">发现关于任何主题的故事、思想和专业知识。</p>
+                                <p class="far-w-p">关于自我发展的一些主题的故事、思想和专业知识。</p>
                             </div>
                             <div style="display: flex;flex-direction: row-reverse;">
                                 <svg width="52" height="21" viewBox="0 0 52 21" fill="none"
@@ -197,14 +198,86 @@
                 </div>
             </div>
         </div>
+
+
+        <!-- 弹窗 -->
+        <!-- <input id="Button1" type="button" value="点击弹出层" onclick="ShowDiv('MyDiv','fade')" /> -->
+        <!--弹出层时背景层DIV-->
+        <div id="fade" class="black_overlay" onclick="CloseDiv('MyDiv','fade')">
+        </div>
+        <div id="MyDiv" class="white_content">
+            <!-- <div style="text-align: right; cursor: default; height: 40px;">
+                <span style="font-size: 16px;" >关闭</span>
+            </div> -->
+            <div class="card fab-bg">
+                <div class="card-header">
+                    <div class="id-card">
+                        <img src="picture/id.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        <div class="name">
+                            <h1 class="far-w">骆海西</h1>
+                            <h2 class="far-w">用户体验设计师</h2>
+                        </div>
+                        <div class="link">
+                            <p class="far-w-p">luohaixi@qq.com</p>
+                            <p class="far-w-p">www.luohaixi.xyz </p>
+                            <p class="far-w-p">173-5262-6369</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="title-line"></div>
+                <div class="card-subtitle">
+                    <ul class="far-w-p">
+                        <li>
+                            <p>哈喽，我是
+                                一名95后设计师，一直在从事用户体验相关的工作，我喜欢将技术与人联系起来，比如
+                                3D实时渲染、可互动动画，让用户与界面内容产生互动是我一直在努力方向，我习惯每天自学一些技术确保我始终向前
+                            </p>
+                        </li>
+                        <li>
+                            <p>此外，在我的空闲时间里，我喜欢做一些摄影和拍摄视频进行分享，还会做一些运动，如篮球或徒步旅行等</p>
+                        </li>
+                    </ul>
+                    <!-- <p>&bull;&nbsp;哈喽，我是
+                    一名95后设计师，一直在从事用户体验相关的工作，我喜欢将技术与人联系起来，比如3D实时渲染、可交互动效，让用户与界面内容产生互动是我一直在努力方向，我习惯每天自学一些技术确保我一直都在向前
+                </p>
+                <p>&bull;&nbsp;此外，在我的空闲时间里，我喜欢做一些摄影和拍摄视频进行分享，还会做一些运动，如篮球或徒步旅行等</p> -->
+                </div>
+                <div class="label" style="margin-top: 30px;">
+                    <span class="tag">UI/UX</span>
+                    <span class="tag">Animation</span>
+                    <span class="tag">3D/Unity </span>
+                    <span class="tag">Html / CSS/ JS</span>
+                </div>
+            </div>
+            <!-- 目前来说，我还是喜欢这个自己改造的弹出层。自己在项目中也用的是这个。 -->
+        </div>
         <!-- footer  -->
         <!-- <footer class="footer far-c">
-
+        </footer> -->
     </div>
 
-    </footer> -->
+
 
 </body>
+<script type="text/javascript">
+    //弹出隐藏层
+    function ShowDiv(show_div, bg_div) {
+        document.getElementById(show_div).style.display = 'block';
+        document.getElementById(bg_div).style.display = 'block';
+        var bgdiv = document.getElementById(bg_div);
+        bgdiv.style.width = document.body.scrollWidth;
+        // bgdiv.style.height = $(document).height();
+        $("#" + bg_div).height($(document).height());
+    };
+    //关闭弹出层
+    function CloseDiv(show_div, bg_div) {
+        document.getElementById(show_div).style.display = 'none';
+        document.getElementById(bg_div).style.display = 'none';
+    };
+</script>
 <!-- 动态文字 -->
 <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
 

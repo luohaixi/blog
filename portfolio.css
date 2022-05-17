@@ -212,6 +212,7 @@
 .bg-gray-purple {
 
     box-sizing: border-box;
+    overflow: hidden;
     /* height: 240px; */
     grid-column-start: span 6;
     grid-column-end: span 6;
