@@ -24,11 +24,31 @@
 }
 
 
+.elemen-sc-a {
+    margin: 5px;
+    padding: 24px;
+    width: 70%;
+    background: rgba(46, 104, 203, 0.1);
+    border-radius: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    transition: .3s cubic-bezier(.165, .84, .44, 1);
+}
+
+.elemen-sc-b {
+    margin: 5px;
+    padding: 24px;
+    width: 50%;
+    background: rgba(53, 112, 58, 0.1);
+    border-radius: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    transition: .3s cubic-bezier(.165, .84, .44, 1);
+}
+
 
 .list {
     /* border-top: 1px solid #EBEBEB; */
     /* width: 800px; */
-    margin: 0 10px;
+    /* margin: 0 10px; */
     height: auto;
     background-color: rgba(255, 175, 175, 0);
 }

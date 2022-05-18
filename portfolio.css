@@ -31,7 +31,7 @@
     justify-content: space-between;
     margin: 0px 0px 90px;
     background-color:#ffffff;
-    border-radius: 10px;
+    border-radius: 0px;
     border: 1px solid rgba(0, 0, 0, 0.05);
 }
 .airstar .title-1{
@@ -45,7 +45,7 @@
     width: 45%;
     height: 480px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 0px;
     position: relative;
 }
 .video-mobile{
@@ -83,14 +83,14 @@
 
 .video-hd {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0px;
     margin-bottom: 24px;
 
 }
 
 .banner video {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0px;
     border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -103,24 +103,6 @@
     font-weight: normal;
 }
 
-.box-lettlo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.box-lettlo>div {
-    width: 25%;
-    /* height: 185px; */
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.box-lettlo img {
-    width: 100%;
-    border-radius: 10px;
-}
 
 /* .main {
     display: flex;
@@ -151,7 +133,7 @@
     margin: 60px 10px 0;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, .03);
-    border-radius: 10px;
+    border-radius: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -166,7 +148,7 @@
     background-color: rgba(0, 0, 0, .03);
     margin: 6px;
     padding: 32px 8px;
-    border-radius: 10px;
+    border-radius: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,8 +189,6 @@
     grid-template-columns: repeat(10, minmax(0, 1fr));
 }
 
-
-
 .bg-gray-purple {
 
     box-sizing: border-box;
@@ -217,7 +197,7 @@
     grid-column-start: span 6;
     grid-column-end: span 6;
     /* padding: 0.75rem 0.75rem; */
-    border-radius: 1rem;
+    border-radius: 0rem;
     background-color: rgb(241 240 242);
 
 }
@@ -229,7 +209,7 @@
     grid-column-start: span 4;
     grid-column-end: span 4;
     /* padding: 0.75rem 0.75rem; */
-    border-radius: 1rem;
+    border-radius: 0rem;
     background-color: rgb(241 240 242);
 
 }
@@ -238,7 +218,7 @@
     grid-column-start: span 5;
     grid-column-end: span 5;
     /* padding: 0.75rem 0.75rem; */
-    border-radius: 1rem;
+    border-radius: 0rem;
     background-color: rgb(241 240 242);
 
 }
@@ -246,6 +226,6 @@
     display: flex;
     justify-content: center;
     height: 338px;
-    border-radius: 0.5em;
+    border-radius: 0rem;
     overflow: hidden;
 }
