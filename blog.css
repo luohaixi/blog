@@ -25,11 +25,25 @@
 
 /* 下面列表切换样式 */
 
+.box-tb .item:nth-child(n+2) {
+    display: none;
+}
+
+.current {
+    /* width: 70%; */
+}
+
+ul {
+    list-style: none;
+}
+
+.box-th li {
+    width: 100%;
+}
 .button {
     display: flex;
     flex-direction: row;
-    margin: 0 10px;
-    /* width: 800px; */
+    /* margin: 0 10px; */
 }
 
 .elemen-sc-a:hover,
@@ -69,9 +83,9 @@
 
 .elemen-sc-a {
     display: flex;
-    margin: 5px;
+    margin: 10px;
     padding: 24px;
-    width: 70%;
+    /* width: 100%; */
     background: rgba(46, 104, 203, 0.1);
     border-radius: 0px;
     border: 1px solid rgba(0, 0, 0, 0.03);
@@ -79,9 +93,10 @@
 }
 
 .elemen-sc-b {
-    margin: 5px;
+    display: flex;
+    margin: 10px;
     padding: 24px;
-    width: 50%;
+    /* width: 100%; */
     background: rgba(53, 112, 58, 0.1);
     border-radius: 0px;
     border: 1px solid rgba(0, 0, 0, 0.03);
@@ -146,4 +161,61 @@
 .test-card:hover {
     transform: scale(1.03);
 
+}
+
+/* 主要内容 */
+.item-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 182, 182, 0);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 270.6px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin: 10px;
+    padding: 20px 14px;
+    border: 1px solid rgba(5, 6, 15, .05);
+    background-color: #fff;
+    box-shadow: 0 7px 16px 0 rgb(0 0 0 / 4%);
+    border-radius: 16px;
+    transition: .3s cubic-bezier(.165, .84, .44, 1);
+}
+
+.card-container img {
+    margin: 14px 0;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-container .about {
+    padding-bottom: 10px;
+}
+
+.card-container h4 {
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+}
+
+.card-container p {
+    padding-top: 2px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.card-container:hover {
+    transform: scale(1.03);
+    transition: all 0.2s !important;
+    box-shadow: 0px 0px 20px rgb(46 104 203 / 8%);
 }
