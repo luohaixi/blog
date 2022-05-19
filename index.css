@@ -163,6 +163,7 @@ z-index: -1;
     backdrop-filter: saturate(180%) blur(20px);
     border-radius: 0px;
     border: 1px solid rgba(0, 0, 0, 0.03);
+    transition: .3s cubic-bezier(.165, .84, .44, 1);
 }
 
 .elemen:hover,
@@ -188,6 +189,7 @@ z-index: -1;
     backdrop-filter: saturate(180%) blur(20px);
     border-radius: 0px;
     border: 1px solid rgba(0, 0, 0, 0.03);
+    transition: .3s cubic-bezier(.165, .84, .44, 1);
 }
 
 .elemen-sc-b .elemen-bt h2 {
