@@ -128,6 +128,11 @@ z-index: -1;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
 }
+.pages-muen p>strong{
+    font-size: 14px;
+    font-family: HelveticaNeue-CondensedBold;
+    color: rgba(0, 0, 0, 0.6);
+}
 
 .pages-muen .list-top .list-top-a {
     display: flex;
