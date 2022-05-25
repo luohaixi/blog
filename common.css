@@ -200,7 +200,7 @@ body {
     /* max-width: 50rem; */
     background-color: rgb(255, 255, 255);
     backdrop-filter: saturate(180%) blur(150px);
-    border-radius: 0rem;
+    /* border-radius: 0rem; */
     box-shadow: 0 14px 80px rgb(34 35 58 / 20%);
 }
 
@@ -295,4 +295,15 @@ body {
     background-color: white;
     z-index: 1002;
     overflow: auto;
+}
+
+/* 圆角 */
+.fun-1{
+    border-radius: 0rem;
+}
+.fun-2{
+    border-radius: 0rem;
+}
+.fun-3{
+    border-radius: 1.5rem;
 }
