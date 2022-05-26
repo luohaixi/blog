@@ -299,10 +299,10 @@ body {
 
 /* 圆角 */
 .fun-1{
-    border-radius: 0rem;
+    border-radius: 0.5rem;
 }
 .fun-2{
-    border-radius: 0rem;
+    border-radius: 0.5rem;
 }
 .fun-3{
     border-radius: 1.5rem;
