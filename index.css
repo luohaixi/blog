@@ -55,6 +55,11 @@ z-index: -1;
         width: 60%;
     }
 }
+@media screen and (max-width:1600px){
+    .centrize{
+        width: 1200px;
+    }
+}
 
 .stared-centent {
     display: flex;
