@@ -57,7 +57,7 @@ z-index: -1;
 }
 @media screen and (min-width:1600px){
     .centrize{
-        width: 1200px;
+        width: 960px;
     }
 }
 
