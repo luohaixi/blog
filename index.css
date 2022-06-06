@@ -47,12 +47,12 @@ z-index: -1;
 }
 @media screen and (min-width:992px){
     .centrize{
-        width: 70%;
+        width: 85%;
     }
 }
 @media screen and (min-width:1200px){
     .centrize{
-        width: 60%;
+        width: 65%;
     }
 }
 @media screen and (min-width:1600px){
