@@ -188,7 +188,6 @@
 }
 
 .bg-gray-purple {
-
     box-sizing: border-box;
     overflow: hidden;
     /* height: 240px; */
@@ -201,7 +200,6 @@
 }
 
 .bg-gray-purple2 {
-    
     box-sizing: border-box;
     overflow: hidden;
     grid-column-start: span 4;
@@ -212,6 +210,7 @@
 
 }
 .bg-gray-purple3 {
+    overflow: hidden;
     box-sizing: border-box;
     grid-column-start: span 5;
     grid-column-end: span 5;
