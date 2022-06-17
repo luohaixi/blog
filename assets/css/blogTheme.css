@@ -79,9 +79,9 @@
     border: 1px solid rgba(255, 255, 255, 0.03);
 }
 
-.theme-dark .test-card:hover {
+/* .theme-dark .test-card:hover {
     border: 1px solid rgba(255, 255, 255, 0.1);
-}
+} */
 
 .theme-dark .far-c {
     border-color: rgba(48, 54, 61,0.48);
