@@ -82,6 +82,7 @@ body {
     content: "\eab0";
 }
 
+
 .switch {
     background: rgba(0, 0, 0, 0.05);
     border-radius: 35px;
@@ -217,13 +218,13 @@ body {
 .card-header {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .card-title {
     display: flex;
     flex-direction: column;
-    margin:16px 0 0 60px;
 }
 
 .link {
@@ -237,7 +238,23 @@ body {
 }
 
 .link p:nth-child(2) {
-    margin: 0 30px;
+    margin: 0 15px;
+}
+
+.icon-email::before {
+    content: "\e902";
+    font-size: 18px;
+    margin-right: 4px;
+}
+.icon-language::before {
+    content: "\e903";
+    font-size: 18px;
+    margin-right: 4px;
+}
+.icon-call::before {
+    content: "\e901";
+    font-size: 18px;
+    margin-right: 4px;
 }
 
 .title-line {
