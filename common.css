@@ -225,6 +225,7 @@ body {
 .card-title {
     display: flex;
     flex-direction: column;
+    
 }
 
 .link {
