@@ -74,7 +74,7 @@ body {
     content: "\eaa7";
 }
 
-.icon-behance::after {
+.icon-bilibili::after {
     content: "\e900";
 }
 
@@ -225,7 +225,7 @@ body {
 .card-title {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .link {
