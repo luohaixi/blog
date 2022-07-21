@@ -80,7 +80,7 @@
                                 <h2>经验总结 &frasl; </h2>
                                 <p style="margin-left: 6px;"> 专业探索</p>
                             </div>
-                            <div class="marker"></div>
+                            <div class="marker" id="button1"></div>
                         </div>
                     </li>
                     <li data-index="1">
@@ -89,7 +89,7 @@
                                 <h2>项目总结 &frasl; </h2>
                                 <p style="margin-left: 6px;"> 成长足迹</p>
                             </div>
-                            <div class="marker-1"></div>
+                            <div class="marker-1" id="button1" style="display: none"></div>
                         </div>
                     </li>
                 </ul>
@@ -225,6 +225,7 @@
     <script>
         var list = document.querySelector('.box-th').querySelectorAll('li');
         var items = document.querySelector('.box-tb').querySelectorAll('.item');
+        var buttons = document.querySelector('.box-th').querySelectorAll('#button1');
         for (var i = 0; i < list.length; i++) {
             list[i].onclick = function () {
                 // 导航栏样式切换，排他算法
@@ -239,6 +240,12 @@
                     items[i].style.display = 'none';
                 }
                 items[index].style.display = 'block';
+
+                for (var i = 0; i < list.length; i++) {
+                    buttons[i].style.display = 'none';
+                }
+                buttons[index].style.display = 'block';
+
             }
         }
     </script>
