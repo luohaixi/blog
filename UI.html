@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fonts -->
+    <link rel="stylesheet" href="images/webfonts/icomoon/style.css">
+
+    <link rel="shortcut icon" href="bitbug_favicon.ico" />
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="wenzhang.css">
+    <link rel="stylesheet" href="assets/css/blogTheme.css" />
+</head>
+
+<body>
+    <!-- 导航栏部分 -->
+    <div class="header far-c">
+        <div class="head-nav">
+            <!-- logo部分 -->
+            <div class="logo elemen-b">
+                <a onclick="handleJump('index')" style="display: flex;">
+                    <svg width="36" height="36" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 21C0 9.40202 9.40202 0 21 0C32.598 0 42 9.40202 42 21C42 32.598 32.598 42 21 42C9.40202 42 0 32.598 0 21ZM18.3685 8.37013L24.2813 8.38359L19.6968 22.8394C19.2588 24.2191 17.9765 25.0798 16.529 25.0765L10.6162 25.063L15.2015 10.696C15.6396 9.31636 16.921 8.36683 18.3685 8.37013ZM26.2059 16.4087L32.1187 16.4222L27.5341 30.878C27.0961 32.2577 25.8138 33.1184 24.3663 33.1151L18.4536 33.1016L23.0389 18.7346C23.4769 17.3549 24.7585 16.4054 26.2059 16.4087Z"
+                            fill="black" />
+                    </svg>
+                </a>
+            </div>
+            <!-- 导航栏部分 nav -->
+            <div class="nav">
+                <div class="dribble">
+                    <a target="_blank" href="https://space.bilibili.com/301481187" style="display: flex;">
+                        <span class="icon fab icon-behance"></span>
+                    </a>
+                </div>
+                <div class="dribble">
+                    <a target="_blank" href="https://dribbble.com/luohaixi/shots">
+                        <span class="icon fab fa-dribbble"></span>
+                    </a>
+                </div>
+                <div class="switch">
+                    <section>
+                        <div class="toggle-btn" id="_1st-toggle-btn">
+                            <input id="theme-check-box" type="checkbox" onclick="handleTheme(this)">
+                            <span></span>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 主要内容 -->
+    <div class="article-detail">
+        <div class="article-breadcrumb"></div>
+        <div class="article-container ">
+            <div class="article-container__content">
+                <div class="title-container">
+                    <h1 class="title far-w">
+                        活动页UI设计复盘
+                    </h1>
+                    <!--辅助信息-->
+                    <div class="article-read-panel" data-v-0735ec40="">
+                        <div class="article-read-info" data-v-0735ec40="">
+                            <a target="_blank" href="//www.bilibili.com/read/life#rid=15?from=articleDetail"
+                                class="category-name" data-v-0735ec40="">
+                                项目总结
+                            </a>
+                            <span class="publish-text" data-v-0735ec40="">2022-07-25 20:45</span><span
+                                data-v-0735ec40=""> </span>
+                            <span data-v-0735ec40=""> </span>
+                            <span data-v-0735ec40=""> </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!---->
+
+                <div id="article-content" class="article-content">
+                    <div class="title-line"></div>
+                    <div id="read-article-holder" class="normal-article-holder read-article-holder far-w">
+                        <h2><strong>为什么要讲故事</strong></h2>
+                        <p>通过讲故事的形式帮助用户更好的理解产品，理解业务​
+                            有时候我们在看待同一件事情的时候，每个人的主观意识是不一样的，为了避免存在这种偏差，可以通过讲故事的形式，建立一个共同的认知。</p>
+                        <p></p>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/首页.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/1.项目介绍.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/2.需求分析.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/3.活动策略.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/4.视觉推导.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/5.草图构思.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/6.主视觉.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/7-效果_1.gif" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/8.主界面.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/9.其他界面.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/10.大感谢.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+
+                        <h2><strong>总结</strong></h2>
+                        <p>邀请亲友活动作为整个产品的一部分，从形式和玩法等层面进行简化设计，拒绝套路，用实实在在的普惠产品回馈用户；邀请流程简化，并且在视觉和动效上增加神秘感，激发用户的探索欲，给用户呈现全新的体验，运用天星金融宇宙探索的背景故事体现品牌独特性，从视觉上加深用户对天星品牌的认可度。
+                            后续我们也会继续把宇宙探索故事情节与金融产品高度融合，强化深耕，让用户更爱我们的产品，更愿意主动参加我们的活动。</p>
+                        <p></p>
+                        <figure contenteditable="false" class="img-box loaded" style="min-width: 628px;">
+                            <div class="n-img-mask" style="width: 100%;height: auto;">
+                                <i class="iconfont icon--default-cover default-cover"></i>
+                                <div class="n-img-reload" data-type="reload"></div>
+                            </div>
+                            <img src="picture/UI/探索.001.png" alt="" style="width: 100%; ">
+                            <figcaption class="caption" contenteditable="false"></figcaption>
+                        </figure>
+
+
+                        <p><br></p>
+                        <p>未完待续...</p>
+
+                        <p></p>
+                        <p><br></p>
+                        <p></p>
+                        <p><br>END</p>
+                        <p><br></p>
+                        <div class="title-line"></div>
+                        <p><br></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- 底部模块的制作 -->
+    <footer class="footer far-c">
+
+        <div class="mod">
+            <div class="logo-td elemen-b">
+                <svg width="36" height="36" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0ZM21 3C11.0589 3 3 11.0589 3 21C3 30.9411 11.0589 39 21 39C30.9411 39 39 30.9411 39 21C39 11.0589 30.9411 3 21 3ZM18.3361 9.85841L23.6268 9.87045L19.5246 22.8056C19.1326 24.0401 17.9852 24.8103 16.69 24.8073L11.3992 24.7953L15.5022 11.9396C15.8941 10.7051 17.0408 9.85546 18.3361 9.85841ZM25.3491 17.0512L30.6399 17.0632L26.5376 29.9983C26.1456 31.2328 24.9982 32.003 23.703 32.0001L18.4122 31.988L22.5152 19.1323C22.9071 17.8978 24.0539 17.0482 25.3491 17.0512Z"
+                        fill="black" />
+                </svg>
+            </div>
+            <div class="">
+                <p class="far-w">Keep the passion and beginner's mind.</p>
+            </div>
+            <ul>
+                <li>
+                    <a target="_blank" href="https://dribbble.com/luohaixi/shots">
+                        <span class="icon fab fa-dribbble"></span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://space.bilibili.com/301481187">
+                        <span class="icon fab icon-behance"></span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/luohaixi/blog">
+                        <span class="icon fab icon-github"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </footer>
+    <!-- 主题 -->
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
