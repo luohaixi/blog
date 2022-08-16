@@ -136,6 +136,14 @@
     background: rgba(255, 255, 255, 0.04);
 }
 
+.theme-dark .cardbox-img{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.theme-dark .box-img{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
 /* 默认样式 */
 .theme-light {
     background-color: #fff;

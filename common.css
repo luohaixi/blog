@@ -243,23 +243,23 @@ body {
 }
 
 .link p:nth-child(2) {
-    margin: 0 15px;
+    margin: 0 30px;
 }
 
 .icon-email::before {
     content: "\e902";
     font-size: 18px;
-    margin-right: 4px;
+    margin-right: 3px;
 }
 .icon-language::before {
     content: "\e903";
     font-size: 18px;
-    margin-right: 4px;
+    margin-right: 3px;
 }
 .icon-call::before {
     content: "\e901";
     font-size: 18px;
-    margin-right: 4px;
+    margin-right: 3px;
 }
 
 .title-line {
