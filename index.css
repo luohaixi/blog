@@ -11,7 +11,7 @@ body {
     font-family: "Greycliff Medium", "Helvetica Neue", Helvetica, sans-serif, "Roboto";
     font-size: 14px;
     line-height: 1.7;
-    /* background: #ffffff; */
+    background: #ffffff;
     letter-spacing: 0;
     /* font-weight: 320; */
 }
@@ -67,7 +67,7 @@ z-index: -1;
 }
 
 .h-suntitle {
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 700;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -76,21 +76,20 @@ z-index: -1;
 
 .h-suntitle strong {
     color: #00A3FF;
-    /* color: #165DFF; */
 }
 
 .fabe {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3vh 0;
+    margin: 3vh 0 5vh 0;
     min-height: 48px;
-    /* width: 50%; */
     height: 48px;
     max-height: 48px;
     border-radius: 40px;
-    /* border: 1px solid #f5f5f5; */
-    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 7px 16px 0 rgb(0 0 0 / 4%);
 }
 
 .pages-muen {
@@ -123,7 +122,7 @@ z-index: -1;
 .pages-muen h2 {
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     /* line-height: 50px; */
 
 }

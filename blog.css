@@ -198,7 +198,7 @@ ul {
     justify-content: flex-start;
     width: 270.6px;
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 0.5rem;
     margin: 10px;
     padding: 20px 14px;
     border: 1px solid rgba(5, 6, 15, .05);
