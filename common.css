@@ -137,10 +137,8 @@ body {
 }
 
 .footer p {
-    font-size: 20px;
-    font-family: Amithen;
-    letter-spacing: 2px;
-    color: rgba(0, 0, 0, 0.9);
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .footer .mod ul {
@@ -239,7 +237,7 @@ body {
     margin-top: 20px;
 }
 .link p,ul{
-    color: #646464;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .link p:nth-child(2) {

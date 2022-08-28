@@ -45,8 +45,12 @@ body {
 }
 
 .article-content p {
-    color: #666;
+    color: rgba(0, 0, 0, 0.6);
 }
+.p-frame{margin-bottom: 10px;
+
+}
+
 
 /* p {
     color: rgba(0, 0, 0, 0.6);
